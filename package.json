@@ -1,23 +1,26 @@
 {
-  "name": "generate-text",
+  "name": "mr-text",
   "version": "1.0.0",
-  "description": "random letter/word/sentence generator with desired length (by Niloy Mahmud Apu)",
+  "description": "text generator by Niloy Mahmud Apu",
   "main": "index.js",
   "scripts": {
-    "test": "echo hello generator",
-    "dev": "node index.js"
+    "test": "echo hello text generator"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niloy143/mr-text.git"
   },
   "keywords": [
-    "random-text",
-    "text-generator",
-    "generate-text",
-    "random-words",
-    "random",
-    "word",
-    "letter",
     "text",
-    "sentence"
+    "random",
+    "random-text",
+    "text",
+    "generator"
   ],
   "author": "Niloy Mahmud Apu",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niloy143/mr-text/issues"
+  },
+  "homepage": "https://github.com/niloy143/mr-text#readme"
 }
