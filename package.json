@@ -1,0 +1,23 @@
+{
+  "name": "generate-text",
+  "version": "1.0.0",
+  "description": "random letter/word/sentence generator with desired length (by Niloy Mahmud Apu)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo hello generator",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "random-text",
+    "text-generator",
+    "generate-text",
+    "random-words",
+    "random",
+    "word",
+    "letter",
+    "text",
+    "sentence"
+  ],
+  "author": "Niloy Mahmud Apu",
+  "license": "ISC"
+}
