@@ -1,6 +1,6 @@
 {
   "name": "mr-text",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "text generator by Niloy Mahmud Apu",
   "main": "index.js",
   "scripts": {
