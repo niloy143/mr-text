@@ -9,12 +9,19 @@
 ### Example
 
 ```javascript
-const { generateWord, generateSentence } = require("mr-text");
+const {
+  generateWord,
+  generateSentence,
+  generateParagraph,
+} = require("mr-text");
 
 const randomWord = generateWord(3, 7); // minimum length 3, maximum length 7
-const randomSentence = generateSentence(5, 15, 3, 7); // minimum words 5, maximum 15
+const randomSentence = generateSentence(5, 15, 3, 7); // minimum words 5, maximum words 15
+const randomParagraph = generateParagraph(15, 30, 5, 15, 3, 7); // minimum sentences 15, maximum sentences 30
+
 console.log(randomWord);
 console.log(randomSentence);
+console.log(randomParagraph);
 
 // note: generated texts are not valid English words.
 ```
