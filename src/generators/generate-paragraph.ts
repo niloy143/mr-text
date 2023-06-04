@@ -1,5 +1,5 @@
-const { randomInt } = require("../utils/random-values");
-const { generateSentence } = require("./generate-sentence");
+import { randomInt } from "../utils/random-values";
+import { generateSentence } from "./generate-sentence";
 
 const generateParagraph = (
   minSentences = 10,
@@ -24,4 +24,4 @@ const generateParagraph = (
   return sentences.join(". ");
 };
 
-module.exports = { generateParagraph };
+export { generateParagraph };

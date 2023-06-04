@@ -1,8 +1,8 @@
-const {
+import {
   randomConsonant,
   randomInt,
   randomVowel,
-} = require("../utils/random-values");
+} from "../utils/random-values";
 
 const generateWord = (minLength = 3, maxLength = 7) => {
   const length = randomInt(minLength, maxLength);
@@ -17,4 +17,4 @@ const generateWord = (minLength = 3, maxLength = 7) => {
   return word;
 };
 
-module.exports = { generateWord };
+export { generateWord };

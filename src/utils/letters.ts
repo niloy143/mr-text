@@ -2,7 +2,7 @@ const vowels = "aeiou";
 const consonants = "bcdfghjklmnpqrstvwxyz";
 const letters = "abcdefghijklmnopqrstuvwxyz";
 
-module.exports = {
+export {
   vowels,
   consonants,
   letters,

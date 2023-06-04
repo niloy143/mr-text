@@ -1,10 +1,12 @@
 {
   "name": "mr-text",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "text generator by Niloy Mahmud Apu",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo hello text generator"
+    "test": "echo hello text generator",
+    "build": "rm -rf ./dist/* && tsc",
+    "dev": "nodemon ./src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/niloy143/mr-text/issues"
   },
-  "homepage": "https://github.com/niloy143/mr-text#readme"
+  "homepage": "https://github.com/niloy143/mr-text#readme",
+  "devDependencies": {
+    "@types/node": "^20.2.5"
+  }
 }

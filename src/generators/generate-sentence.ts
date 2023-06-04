@@ -1,5 +1,5 @@
-const { randomInt } = require("../utils/random-values");
-const { generateWord } = require("./generate-word");
+import { randomInt } from "../utils/random-values";
+import { generateWord } from "./generate-word";
 
 const generateSentence = (
   minWords = 7,
@@ -15,4 +15,4 @@ const generateSentence = (
   return words.join(" ");
 };
 
-module.exports = { generateSentence };
+export { generateSentence };

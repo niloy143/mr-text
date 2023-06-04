@@ -3,25 +3,21 @@
 ### How to start
 
 - First, Simply install the package ⇒ `npm i mr-text`
-- Import the desired generator from the root of the package ⇒ `const { generateWord } = require("mr-text");`
+- Import the desired generator from the root of the package ⇒ `import { generateWord } from "mr-text";`
 - Call the generator ⇒ `console.log(generateWord());`
 
 ### Example
 
 ```javascript
-const {
-  generateWord,
-  generateSentence,
-  generateParagraph,
-} = require("mr-text");
+import { generateWord, generateSentence, generateParagraph } from "mr-text";
 
-const randomWord = generateWord(3, 7); // minimum length 3, maximum length 7
-const randomSentence = generateSentence(5, 15, 3, 7); // minimum words 5, maximum words 15
-const randomParagraph = generateParagraph(15, 30, 5, 15, 3, 7); // minimum sentences 15, maximum sentences 30
+const word = generateWord(3, 7); // minimum length 3, maximum length 7
+const sentence = generateSentence(5, 15, 3, 7); // minimum words 5, maximum words 15
+const paragraph = generateParagraph(15, 30, 5, 15, 3, 7); // minimum sentences 15, maximum sentences 30
 
-console.log(randomWord);
-console.log(randomSentence);
-console.log(randomParagraph);
+console.log(word);
+console.log(sentence);
+console.log(paragraph);
 
 // note: generated texts are not valid English words.
 ```
@@ -29,7 +25,7 @@ console.log(randomParagraph);
 ### Available Imports
 
 ```javascript
-const {
+import {
   vowels,
   consonants,
   letters,
@@ -40,5 +36,5 @@ const {
   generateWord,
   generateSentence,
   generateParagraph,
-} = require("mr-text");
+} from "mr-text";
 ```
